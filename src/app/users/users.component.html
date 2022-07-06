@@ -1,0 +1,16 @@
+<div class="container">
+  <h3>Manage Users</h3>
+  <!-- <a routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/users">List User</a> |  -->
+  <div class="btn">
+    <a routerLinkActive="active" routerLink="/users" class="btn btn-info btn-sm">
+        <svg class="" fill="currentColor" width="20" height="20"><use xlink:href="bootstrap-icons.svg#card-list"></use></svg> <span> List User </span>
+      </a>
+    <a routerLinkActive="active" routerLink="/users/add" class="btn btn-primary btn-sm">
+        <svg class="" fill="currentColor" width="20" height="20"><use xlink:href="bootstrap-icons.svg#plus"></use></svg> <span> Add User </span>
+      </a>
+  </div>
+</div>
+<!-- <a routerLinkActive="active" routerLink="/users/add">Add User</a> <br/> -->
+<div class="row">
+    <router-outlet></router-outlet>
+</div>

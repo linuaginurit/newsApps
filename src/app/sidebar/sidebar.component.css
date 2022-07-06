@@ -1,0 +1,11 @@
+.sidebar{
+    display: flex;
+    margin: 10px 20px;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+ul{
+    padding-left: 0px;
+}

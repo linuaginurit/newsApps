@@ -1,0 +1,16 @@
+.active
+{
+    color:darkgray !important;
+}
+.we{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #E5CB9F; */
+}
+.sidebar-app{
+    background-color: #99C4C8;
+}
+.content{
+    margin-left: 10px;
+}
